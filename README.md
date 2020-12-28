@@ -25,3 +25,4 @@ nodemon - Nodemon is a utility that will monitor for any changes in your source 
 "scripts": {  
     "start": "nodemon ./index.js --exec babel-node -e js"  
   } nodemon runs the index.js file but we make sure to use babel first to convert the exec code into readable code for the web.  
+How to run your own presets that are not in the predefined list: npm run name-of-your-preset
