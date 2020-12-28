@@ -1,0 +1,22 @@
+{
+  "name": "test-npm",
+  "version": "1.0.0",
+  "description": "linkedIn learning npm ch2-01",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejas-9er/LinkedIn-Node-Package-Manager.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Tejas Gandre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejas-9er/LinkedIn-Node-Package-Manager/issues"
+  },
+  "homepage": "https://github.com/tejas-9er/LinkedIn-Node-Package-Manager#readme"
+}
