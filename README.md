@@ -14,8 +14,8 @@ npm uninstall babel-preset-es2015 - remove es2015 package
 npm install babel-preset-env --save-dev  - installing the correct env preset according to .babelrc file as dev  
 versioning syntax 1.4.2: 1-> major release like a new vversion of s/w, 4-> minor release or feature update, 2-> patches and bug fix  
 ^1.x.x: The ^ is the default for installing new packages meaning latest version of package version 1 will be installed npm won't install any version beyond that  
-~1.5.x: A more strict approach meaning latest version of package 1.5 will be installed npm won't install any version beyond that  
-For specific version remmove the ^/~ in the verison number  
+`~1.5.x: A more strict approach meaning latest version of package 1.5 will be installed npm won't install any version beyond that  
+For specific version remmove the ^/`~ in the verison number  
 When you do npm install, package.json is the input and package-lock.json is the output. Always commit package-lock.json as it will limit the version installed in the package.json file to the version specified in the package-lock.json.  
 npm cache verify  - gives a report on the cache  
 npm cache clean --force - forcefully cleans cache. As cache self cleans after version 5 it has to be done forcefully or it won't work.  
