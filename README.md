@@ -1,4 +1,4 @@
-# LinkedIn-Node-Package-Manager
+# NPM cheat sheet
 
 Following is a list of commands used  
 npm init  - initialize npm and create package.json  
@@ -25,4 +25,9 @@ nodemon - Nodemon is a utility that will monitor for any changes in your source 
 "scripts": {  
     "start": "nodemon ./index.js --exec babel-node -e js"  
   } nodemon runs the index.js file but we make sure to use babel first to convert the exec code into readable code for the web.  
-How to run your own presets that are not in the predefined list: npm run name-of-your-preset
+How to run your own presets that are not in the predefined list: npm run name-of-your-preset  
+npx -p @angular/cli ng new myapp    -   this command temporarily installs the angular cli tool with -p(package) and then use the comand from that package to create a new app without having to the package preinstalled in your system  
+npx mocha   -   mocha is a javascript test framework and using npx you can temporarily install it and use it.  
+An interesting command to run is npx cowsay message goes here  
+Alternatives to npm -   yarn: similar to npm but is faster and does requier to install a packager
+                        ni: same as yarn and npm but uses a less verbose approach
