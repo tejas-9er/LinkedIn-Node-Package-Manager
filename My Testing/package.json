@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/tejas-9er/LinkedIn-Node-Package-Manager/issues"
   },
-  "homepage": "https://github.com/tejas-9er/LinkedIn-Node-Package-Manager#readme"
+  "homepage": "https://github.com/tejas-9er/LinkedIn-Node-Package-Manager#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
